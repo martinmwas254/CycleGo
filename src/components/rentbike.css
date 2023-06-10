@@ -1,0 +1,96 @@
+/* rentbike.css */
+
+/* Bike list styles */
+.bike-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bike {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .bike img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart styles */
+  .cart {
+    margin-top: 20px;
+  }
+  
+  .cart h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cart p {
+    margin: 5px 0;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 10px;
+  }
+  
+  .cart button {
+    margin-right: 5px;
+  }
+  
+  .cart input[type="text"] {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .cart-form {
+    margin-top: 10px;
+  }
+  
+  /* Custom button styles */
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
